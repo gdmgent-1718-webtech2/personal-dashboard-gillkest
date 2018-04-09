@@ -1,0 +1,63 @@
+/*
+
+weather API: eb17e0464884648ea1afca46fc3782d5
+merelbeke weather ID: 2791316
+
+
+news API: eb0cf0ee062744be98d1b4d5b7c9eb9b
+**/
+
+body, html {
+    height: 100%;
+}
+
+.bg { 
+    background-color: rgb(54, 54, 54);
+    color: #FFF;
+}
+
+h1{
+    padding: 0px;
+}
+
+#div1{
+    color: orange;
+}
+
+h3{
+    padding-bottom: 25px;
+}
+
+.title{
+    font-style: italic;
+    text-align: center;
+    padding: 10px;
+}
+.news{
+    padding: 10px;
+
+}
+
+#time{
+    font-size: 120px;
+    color: white;
+    font-weight: bold;
+    padding-top: 30px;
+}
+
+#greeting{
+    padding-bottom: 100px;
+}
+
+#bullet{
+    border-radius: 10px;
+    border: hidden;
+    padding: 10px;
+    background: orange;
+    color: rgb(54, 54, 54);
+}
+
+img{
+    border: hidden;
+    border-radius: 8px;
+}
