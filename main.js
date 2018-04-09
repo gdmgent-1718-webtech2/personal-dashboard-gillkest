@@ -108,11 +108,6 @@ getJSON(urlJoke, function(error, data){
     document.getElementById("joke").innerHTML = data.value.joke;
 
 });
-
-
-
-
-
 //CRYPTODATABASE
 getJSON('https://api.coinmarketcap.com/v1/ticker/?convert=EUR&limit=3', function(error, data) {
         //DO MAGIC
@@ -124,12 +119,6 @@ getJSON('https://api.coinmarketcap.com/v1/ticker/?convert=EUR&limit=3', function
     data[c].percent_change_24h + " % </p>" 
     }
 });
-
-
-
-
-
-
 
 //DORSTIG WEER buiten
 
@@ -149,9 +138,6 @@ getJSON('https://www.thecocktaildb.com/api/json/v1/1/random.php', function(error
     "<p>" + data.drinks[0].strInstructions + " </p> </div>"; 
 
 });
-
-
-
 
 //Random movie
 const movName = "guardians of the galaxy";
