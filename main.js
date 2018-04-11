@@ -19,7 +19,7 @@ const getJSON = function(url, callback) {
 
 //WEER APP
 
-    getJSON('http://api.openweathermap.org/data/2.5/forecast?id=2791316&APPID=eb17e0464884648ea1afca46fc3782d5', function(error, data) {
+    getJSON('https://api.openweathermap.org/data/2.5/forecast?id=2791316&APPID=eb17e0464884648ea1afca46fc3782d5', function(error, data) {
         //DO MAGIC
 
         //convert kelvin to celsius
@@ -101,7 +101,7 @@ fetch(req)
 const firstName = "Gilles'"
 const lastName = "Dashboard"
 
-const urlJoke = 'http://api.icndb.com/jokes/489?firstName=' + firstName + '&lastName=' + lastName;
+const urlJoke = 'https://api.icndb.com/jokes/489?firstName=' + firstName + '&lastName=' + lastName;
 
 
 getJSON(urlJoke, function(error, data){
@@ -142,7 +142,7 @@ getJSON('https://www.thecocktaildb.com/api/json/v1/1/random.php', function(error
 //Random movie
 const movName = "guardians of the galaxy";
 
-const movUrl = 'http://www.omdbapi.com/?t=' + movName + "&apikey=f949adc0";
+const movUrl = 'https://www.omdbapi.com/?t=' + movName + "&apikey=f949adc0";
 
 getJSON(movUrl, function(error, data){
     console.log(data);
